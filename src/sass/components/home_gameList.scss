@@ -1,0 +1,79 @@
+.home-body__game-list{
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    &__content{
+        &__title{
+            margin-bottom: 20px;
+            display: flex;
+            border-bottom: 1px solid $header_black;
+            img{
+                width: 40px;
+            }
+            h3{
+                margin: 5px;
+            }
+        }
+        &__game-area{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap:40px;
+            &__game-block{
+                margin: auto;
+                width: 480px;
+                background: $dark_blue;
+                transition: 0.1s;
+                cursor: pointer;
+                box-shadow:  0 0 5px 2px #36363698;
+                .game_title{
+                    margin-left: 20px;
+                }
+                p{
+                    margin: 2px;
+                }
+                .game_img{
+                    width:100%;
+                    height: 270px;
+                }
+                video{
+                    display: none;
+                    width: 100%;
+                    height: 270px;
+                }
+            }
+            &__game-block:hover{
+                .game_img{
+                    display: none;
+                }
+                video{
+                    display: unset;
+                }
+            }
+            .price_small{
+                justify-content: right;
+                margin: 5px;
+            }
+        }
+        &__page-menu{
+            margin-top: 20px;
+            justify-content: center;
+            display: flex;
+            .selected_page{
+                color: $bright_blue;
+                text-decoration: underline;
+            }
+            p{
+                cursor: pointer;
+                font-size: 24px;
+                font-weight: 600;
+                padding: 4px;
+                margin: 0 16px 0 16px;
+                color: $dark_blue;
+            }
+            p:hover{
+                color: $bright_blue2;
+            }
+        }
+    }
+}

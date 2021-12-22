@@ -1,0 +1,72 @@
+.about-mid{
+    background-image: url(~@/assets/about/prism.png);
+    &__content{
+        width: 100%;
+        padding: 50px 0 50px 0;
+        background: $linear_black_2;
+        &__block{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-bottom: 80px;
+            &__text{
+                width: 90%;
+                margin: auto;
+                margin-left: 0;
+                background:$dark_blue_opcity;
+                padding: 8% 5%;
+                transition: 1s;
+                p{
+                    opacity: 1;
+                    transition: 5s;
+                }
+                .title{
+                    color: $bright_blue3;
+                    font-weight: 600;
+                    font-size:36px;
+                    margin: 5px;
+                }
+                .text{
+                    color: $text_white;
+                    width: 90%;
+                    font-size: 24px;
+                    margin: 5px;
+                }
+            }
+            &__text.right{
+                clip-path: polygon(0% 0%,85% 0%,100% 100%,0% 100%);
+            }
+            &__text.left{
+                text-align: right;
+                clip-path: polygon(15% 0%,100% 0%,100% 100%,0% 100%);
+                .text{
+                    margin-left: 10%;
+                }
+            }
+            img{
+                width: 550px;
+                margin: auto;
+                margin-top: 0;
+                opacity: 1;
+                transition: 1s;
+            }
+        }
+        &__block.scrollHiden{
+            .about-mid__content__block__text.right{
+               margin-left: -100%;
+               p{
+                   opacity: 0;
+               }
+            }
+            .about-mid__content__block__text.left{
+                margin-left: 100%;
+                p{
+                    opacity: 0;
+                }
+            }
+            img{
+                margin-top: -50px;
+                opacity: 0;
+            }
+        }
+    }
+}

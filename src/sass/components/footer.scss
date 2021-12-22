@@ -1,0 +1,45 @@
+.home-footer{
+    width: 100%;
+    background:$header_black;
+    padding: 10px;
+    &__content{
+        width: 75vw;
+        margin: auto;
+        justify-content: center;
+        &__logo{
+            margin: auto;
+            text-align: center;
+            align-items: center;
+            cursor: pointer;
+            img{
+                margin-top:20px;
+                width: 60px;
+                height: 60px;
+            }
+            p{
+                margin: 8px;
+                font-size: 42px;
+                font-weight: 400;
+                color: $text_white;
+            }
+        }
+        &__contactUS{
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            color: $text_white;
+            h4{
+                margin: 5px;
+            }
+        }
+        &__infomation{
+            margin-bottom: 14px;
+            width: 100%;
+            h4{
+                text-align: center;
+                margin: 2px;
+                color:$text_grey;
+            }
+        }
+    }
+}

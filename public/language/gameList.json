@@ -1,0 +1,342 @@
+{
+	"mainAdvGame":[
+		{   
+			"name":"Apex",
+			"price":200,
+			"Discount":0.00,
+			"imgUrl":"adv_game01",
+			"gameId":"game5"
+		},
+		{   
+			"name":"Horizon Zero Dawn",
+			"price":698,
+			"Discount":0.50,
+			"imgUrl":"adv_game02",
+			"gameId":"game14"
+		},
+		{   
+			"name":"Minecraft Dungeons",
+			"price":846,
+			"Discount":0.45,
+			"imgUrl":"adv_game03",
+			"gameId":"game21"
+		}
+	],
+	"games":[
+		{   
+			"name":"Black Desert",
+			"price":200,
+			"Discount":0.90,
+			"imgUrl":"game1",
+			"score":4.2,
+			"discribe":"黑色沙漠是款沙盒、遼闊寫實的MMORPG。體驗快節奏、擬真的戰鬥與打擊感、狩獵怪物和巨大Boss、與公會成員一起攻城掠地、體驗豐富的釣魚/貿易/製作/料理等生活內容！",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"DEATH STRANDING",
+			"price":1790,
+			"Discount":0.70,
+			"imgUrl":"game2",
+			"score":4.5,
+			"discribe":"傳奇遊戲創作人小島秀夫打破了遊戲分類的框架，打造出顛覆傳統的遊戲體驗。 山姆．布橋斯勇闖因死亡擱淺而面目全非的世界， 他背負著未來希望的碎片，踏上旅途，一步步重新連繫這個分崩離析的世界。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"Fall Guys",
+			"price":846,
+			"Discount":0.45,
+			"imgUrl":"game3",
+			"score":4.0,
+			"discribe":"Fall Guys是一款超大型多人派對遊戲，最多可容納60人同時線上混戰。一輪又一輪敵我難分的比賽中，刺激和混亂程度無限升級。只有一位勝利者可以獲得最終的榮耀！",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"Cyberpunk 2077",
+			"price":1599,
+			"Discount":0.50,
+			"imgUrl":"game4",
+			"score":3.9,
+			"discribe":"動作冒險開放世界《電馭叛客 2077》將讓你深入沉溺於肉體改造、爭權奪利又紙醉金迷的巨型都市「夜城」。化身非法傭兵 V，尋找某種絕無僅有的植入物，掌握長生不死的關鍵。自由打造角色的生化改造裝置、技能及遊玩風格，並盡情探索一望無際的巨型城市，讓每一次抉擇逐步左右劇情與世界的走向。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"Apex",
+			"price":200,
+			"Discount":0.00,
+			"imgUrl":"game5",
+			"score":4.2,
+			"discribe":"《Apex 英雄》是一款由 Respawn Entertainment 打造的獲獎免費英雄射擊遊戲。掌握一系列不斷增加且擁有強大技能的傳說級角色，並體驗戰略性小隊玩法和新一代英雄射擊與大逃殺遊戲中的創新玩法。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"Borderlands 3",
+			"price":1789,
+			"Discount":0.75,
+			"imgUrl":"game6",
+			"score":3.5,
+			"discribe":"射擊掠寶遊戲的鼻祖回來了，為您帶來數以億計的武器裝備和一段混亂至極的全新冒險旅途！扮演四位全新的尋寶獵人之一，在新世界中橫行霸道並擊敗敵人吧！每一位都擁有頗具深度的技能樹、能力以及自訂選項。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"DARK SOULS III",
+			"price":1290,
+			"Discount":0.50,
+			"imgUrl":"game7",
+			"score":4.4,
+			"discribe":"Dark Souls即將推出極具話題性及代表性的系列新作。 作好準備，再次擁抱黑暗！",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"Detroit:Become Human",
+			"price":740,
+			"Discount":0.00,
+			"imgUrl":"game8",
+			"score":4.0,
+			"discribe":"《Detroit:Become Human》將人類與仿生人命運交到你的手中，將你帶進一個機器變得比人類還有智慧的近未來世界中。你的每一個選擇都會對遊戲結果帶來影響，本作有著史上最複雜的分支故事。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"The Witcher 3: Wild Hunt",
+			"price":868,
+			"Discount":0.80,
+			"imgUrl":"game9",
+			"score":3.8,
+			"discribe":"當戰火在北方領域延燒，傑洛特將接下終其一生最重大的委託：追尋可以撼動世界的武器，預言之子的下落。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"Monster Hunter: World",
+			"price":920,
+			"Discount":0.35,
+			"imgUrl":"game10",
+			"score":4.2,
+			"discribe":"新的生命之地。狩獵, 就是本能! 在最新作「Monster Hunter: World」中, 玩家可以體驗終極的狩獵生活, 活用新建構的世界中各種各樣的地形 與生態環境享受狩獵的驚喜與興奮。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"Red Dead Redemption 2",
+			"price":1790,
+			"Discount":0.5,
+			"imgUrl":"game11",
+			"score":4.0,
+			"discribe":"Red Dead Redemption 2 是一款囊括超過 175 座年度遊戲獎項，並獲得超過 250 筆滿分評價的大作，講述在邁向現代化之初的美國，亡命之徒亞瑟．摩根以及惡名昭彰的范特林幫派橫越美國亡命天涯的傳奇故事。玩家也能免費進入與 Red Dead 線上模式共享的遊戲世界。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"Marvel's Guardians of the Galaxy",
+			"price":1790,
+			"Discount":0.35,
+			"imgUrl":"game12",
+			"score":3.9,
+			"discribe":"《漫威星際異攻隊》將帶你踏上盪氣迴腸、驚險萬分的星際之旅，透過令人耳目一新的視角任你馳騁星際、縱橫宇宙。玩家將在這部動作冒險遊戲扮演星爵，率領一言不合就爆走的星際異攻隊，闖過一場又一場昏天暗地的大混戰。你沒問題的。應該啦。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"Nioh 2 – The Complete Edition",
+			"price":1490,
+			"Discount":0.30,
+			"imgUrl":"game13",
+			"score":4.2,
+			"discribe":"本作為以賊人囂張跋扈、妖怪四處蠢動的荒廢戰國時代為舞台，展開死鬥的黑暗戰國動作RPG。 加入了全新的戰鬥方式「妖怪化」、外型奇異的邪惡妖怪們、 以及由妖怪產生之「常闇」世界等眾多新增要素，將帶來更過癮的遊戲體驗與更暢快的成就感。 盡情享受完全進化的「戰國誅死遊戲」吧。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"Horizon Zero Dawn™ Complete Edition",
+			"price":698,
+			"Discount":0.50,
+			"imgUrl":"game14",
+			"score":3.8,
+			"discribe":"化身為亞蘿伊體驗傳奇冒險旅程，揭開由機器宰制的未來地球神秘面紗。這位一出生就遭放逐的年輕獵人，必須為了阻擋全人類所面臨的威脅而戰。在這款備受讚譽的動作RPG遊戲中，運用毀滅性的戰術來攻擊機器，並探索壯闊的開放世界。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"Among Us",
+			"price":102,
+			"Discount":0.90,
+			"imgUrl":"game15",
+			"score":4.5,
+			"discribe":"一款線上與單機皆可玩的派對遊戲，4 至 15 名玩家相互合作與背叛... 一切都發生在太空之中！",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"It Takes Two Friend's Pass",
+			"price":1099,
+			"Discount":0.35,
+			"imgUrl":"game16",
+			"score":3.8,
+			"discribe":"在《雙人成行》中踏上人生中最瘋狂的旅程。利用好友通行證*邀請好友免費遊玩。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"RimWorld",
+			"price":500,
+			"Discount":0.90,
+			"imgUrl":"game17",
+			"score":3.9,
+			"discribe":"由聰明的人工智能故事講述者驅動的科幻殖民地模擬電腦遊戲。 通過模擬心理學、生態學、槍戰、近戰、氣候、生物群落、外交、人際關係、藝術、醫學、貿易等來生成故事。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"Bus Simulator 21",
+			"price":1025,
+			"Discount":0.90,
+			"imgUrl":"game18",
+			"score":3.1,
+			"discribe":"在美國或歐洲的兩座開放世界城市中體驗公車司機的日常生活。駕駛多達 30 款全球車廠生產的授權公車，包含雙層公車及電動公車。遊玩單人遊戲或多人遊戲模式，載著乘客安全準時抵達目的地。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"Tales of Arise Demo",
+			"price":920,
+			"Discount":0.35,
+			"imgUrl":"game19",
+			"score":4.2,
+			"discribe":"３００年的暴政、不明面具、遺失的痛覺與記憶。化身為強大火焰之劍的唯一使用者，與不可碰觸的少女及伙伴們一起挺身對抗壓迫者吧。以新世代技術描繪出表情生動的角色，一個關於解放的戰鬥故事。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"Age of Empires II: Definitive Edition",
+			"price":680,
+			"Discount":0.80,
+			"imgUrl":"game20",
+			"score":4.2,
+			"discribe":"有史以來最受歡迎的戰略遊戲之一迎來 20 週年，為此我們推出了《Age of Empires II: Definitive Edition》。本作擁有驚人的 4K 超高畫質，全面重製的新原聲音樂，以及內含 3 個新戰役和 4 個新文明的內容：《最後的可汗》。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		},
+		{   
+			"name":"Minecraft Dungeons",
+			"price":846,
+			"Discount":0.45,
+			"imgUrl":"game21",
+			"score":4.8,
+			"discribe":"《當個創世神：地下城》不同於原作《當個創世神》，此遊戲不包含合成系統、建築或者摧毀方塊的能力，反之專注於迷宮探索。玩家可以探索隨機生成且充滿怪物的地下城，並解決途中遇到的陷阱、謎題、尋找隱藏在地下城內的寶藏。",
+			"system_req":[
+				"CPU：Intel Core i5-4690 3.5GHz、AMD A10-7800 APU 3.5GHz或等同性能的CPU",
+				"記憶體：8GB",
+				"顯示卡：支持OpenGL 4.5的GeForce 700系列或AMD Radeon Rx 200系列",
+				"硬碟容量：4-6GB",
+				"系統 : Windows 10"
+			]
+		}
+	]
+}

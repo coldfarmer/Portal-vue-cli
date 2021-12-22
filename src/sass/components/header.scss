@@ -1,0 +1,110 @@
+.home-header{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    top: 0;
+    background: $header_black;
+    display: flex;
+    &__content{
+        position: relative;
+        width: 1000px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        &__logo{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            cursor: pointer;
+            img{
+                width: 34px;
+                height: 34px;
+            }
+            p{
+                margin: 8px;
+                font-size: 30px;
+                font-weight: 400;
+                color: $text_white;
+            }
+        }
+        &__page-list{
+            margin-left: 5vw;
+            display: flex;
+            align-items: center;
+            transition: 0.4s;
+            a:hover{
+                color:  $bright_blue2;
+            }
+            h4{
+              cursor: pointer;
+            }
+        }
+        &__page-list.searchShow{
+           opacity: 0; 
+           visibility: hidden;
+        }
+        &__searchBar{
+            display: flex;
+            align-items: center;
+            transition: 0.5s;
+            position: absolute;
+            left: 20vw;
+            width: 45vw;
+            top: 15px;
+            transform: rotateY(90deg);
+            &__search-result{
+                width: 80%;
+                position: absolute;
+                left:30px;
+                top:23px;
+                box-shadow:  0 0 5px 2px #36363698;
+                &__game{
+                    display: flex;
+                    border-bottom: 1px solid $header_black;
+                    background: $home_backgroud;
+                    align-items: center;
+                    cursor: pointer;
+                    img{
+                        width: 100px;
+                    }
+                    p{
+                        font-size: 16px;
+                        margin-left: 50px;
+                    }
+                }
+                &__game:hover{
+                    transform: scale(1.01);
+                }
+            }
+            input{
+                width: 80%;
+                margin-left: 5px;
+                border-radius: 5px;
+                background: #cacaca21;
+                border: none;
+                outline: none; 
+                color: $text_white;
+            }
+        }
+        &__searchBar.searchShow{
+            transform: rotateY(0deg);
+        }
+        &__search{
+            display: flex;
+            justify-content: right;
+            &__shoppingCart{
+                display: flex;
+                p{
+                    width: 20px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 10px;
+                    color: $text_white;
+                }
+            }
+            .icon{
+                margin-left: 20px;
+            }
+        }
+    }
+}

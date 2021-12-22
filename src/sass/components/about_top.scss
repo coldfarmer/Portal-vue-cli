@@ -1,0 +1,76 @@
+.about-top{
+    height: 100vh;
+    background-image: url(~@/assets/about/about_back1.jpg);
+    background-size: cover;
+    background-position: center;
+    &__layer{
+        background: radial-gradient($blue_layer2,$blue_layer);
+        width: 100%;
+        height: 100vh;
+        text-align: center;       
+        &__wrap{
+            margin: 0;
+            height: 100vh;
+            padding-top: 50px;
+            // background-image: url(~@/assets/about/back3.jpg);
+            background-size: cover;
+            // background-repeat: repeat;
+            // background-position: center;
+            font-size: 150px;
+            font-weight: bold;
+            color: $text_white;
+            text-shadow: 0 0 30px $bright_blue2;
+            // color: transparent;
+            // background-clip: text;
+            animation-name:light;
+            animation-duration:5s;
+            animation-iteration-count:infinite;
+        }
+        @keyframes light{
+            0%{
+                text-shadow: 0 0 30px $bright_blue2;
+            }
+            50%{
+                text-shadow: 0 0 30px $bright_blue3;
+            }
+            100%{
+                text-shadow: 0 0 30px $bright_blue2;
+            }
+        }
+        &__intro{
+            width: 50%;
+            position: absolute;
+            bottom: 80px;
+            margin-left: 25%;
+            p{
+                color: $text_white;
+            }
+            .title{
+                font-weight: 600;
+                font-size: 40px;
+            }
+            .text{
+                font-size: 25px;
+            }
+        }
+        // &__mask1{
+        //     width: 100%;
+        //     height: 100vh;
+        //     background: rgba(21, 51, 71, 0.151);
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     clip-path: polygon(0% 0%,36% 0%,18% 50%,0% 100%);
+        // }
+        // &__mask2{
+        //     width: 100%;
+        //     height: 100vh;
+        //     background: rgba(21, 51, 71, 0.151);
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     clip-path: polygon(100% 0%,82% 50%,64% 100%,100% 100%);
+        // }
+    }
+    // background-image: url(../../assets/about/about_back1.jpg);
+}

@@ -1,0 +1,81 @@
+.mainAdv{
+    width: 1000px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 80px;
+    overflow: hidden;
+    box-shadow:  0 0 5px 2px #36363698;
+    &__content{
+        margin-left: 0%;
+        width: 500%;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        transition: 0.6s;
+        &__Adv{
+            position: relative;
+            width: 100%;
+            display: flex;
+            transition: 2s;
+            cursor: pointer;
+            img{
+                margin: auto;
+                width: 1000px;
+            }
+            &__addtoCard{
+                position: absolute;
+                bottom: 15px;
+                right:15px;
+            }
+            &__price{
+                position: absolute;
+                bottom: -5px;
+                right: 150px;  
+            }
+            &__shadow{
+                background: linear-gradient(rgba(37, 37, 37, 0),rgba(27, 27, 27, 0.925));
+                height: 100px;
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+            }
+        } 
+    }
+    &__content.finalAdv{
+        transition: 0s;
+    }
+    &__content:hover{
+        animation-play-state: paused;
+    }
+    &__Adv-control{
+        pointer-events: none;
+        z-index: 1;
+        width: 1100px;
+        margin: auto;
+        margin-left: -50px;
+        display: flex;
+        position: absolute;
+        top:35%;
+        div{
+            pointer-events: all;
+            height: 100px;
+            width: 50px;
+            display: flex;
+            cursor: pointer;
+            background: linear-gradient(to left,$linear_black_1,$linear_black_2);
+            img{
+                margin: auto;
+            }
+        }
+        div:nth-child(2){
+            position: absolute;
+            right: 0;
+            background: linear-gradient(to right,$linear_black_1,$linear_black_2);
+        }
+        div:nth-child(1):hover{
+            background: linear-gradient(to left,$linear_black_1_hover,$linear_black_2_hover); 
+        }
+        div:nth-child(2):hover{
+            background: linear-gradient(to left,$linear_black_2_hover,$linear_black_1_hover); 
+        }
+    }
+}

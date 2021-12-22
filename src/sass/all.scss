@@ -1,0 +1,142 @@
+@import "./colors.scss";
+@import "./components/header.scss";
+@import "./components/footer.scss";
+@import "./components/loading.scss";
+@import "./components/home_mainAdv.scss";
+@import "./components/home_gameList.scss";
+@import "./components/game_body.scss";
+@import "./components/shoppingCart.scss";
+@import "./components/about_top.scss";
+@import "./components/about_mid.scss";
+@import "./components/about_bot.scss";
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: $home_backgroud;
+}
+*{
+   .selectedView{
+        color: $bright_blue2!important;
+        text-decoration: underline;
+   } 
+   h2{
+     color: $header_black;
+     font-size: 30px; 
+     margin: 5px; 
+   }
+   h3.game_title{
+       font-size: 20px;
+       margin: 5px;
+       color: $text_white;
+   }
+   h4.page-list{
+    margin: 8px 20px 8px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: $text_white;
+   }
+   h4.page-list:hover{
+    color: #65a8ff;
+   }
+   img.icon{
+    margin: auto;
+    margin: 2px;
+    width: 20px;
+    cursor: pointer;
+   }
+
+   .addtoCard_big{
+       display: flex;
+       color: $text_white;
+       border-radius: 3px;
+       background: $dark_green;
+       h4{
+        margin: 0px;
+        padding: 8px;
+       }
+       img{
+           padding: 8px;
+           width: 20px;
+       }
+   }
+   .addtoCard_big:hover{
+        background: $bright_green;
+        margin-bottom: 2px;
+   }
+
+   .addtoCard_small{
+        display: flex;
+        color: $text_white;
+        border-radius: 3px;
+        background: $dark_green;
+        cursor: pointer;
+        h5{
+        margin: 0px;
+        padding: 4px;
+        }
+        img{
+            padding: 4px;
+            width: 16px;
+        }
+    }
+    .addtoCard_small:hover{
+        background: $bright_green;
+        margin-bottom: 2px;
+    }
+
+   .price_big{
+       display: flex;
+       align-items: center;
+       p{
+        font-size: 20px;
+        font-weight: 600;
+        font-size: 800;
+        color: $text_white;
+        align-items: center;
+        padding: 8px;
+       }
+       .discount{
+           border-radius: 3px;
+           font-size: 18px;
+           color: $text_white;
+           background: $bright_purple;
+       }
+   }
+   .price_small{
+        display: flex;
+        align-items: center;
+        p{
+        font-size: 16px;
+        font-weight: 600;
+        font-size: 800;
+        color: #e2e2e2;
+        align-items: center;
+        padding: 5px;
+        }
+        .discount{
+            border-radius: 3px;
+            font-size: 14px;
+            color: $text_white;
+            background: $bright_purple;
+        }
+   }
+   .origin_price{
+       color: $text_grey;
+       text-decoration: line-through;
+   }
+
+   .buyBtm{
+        padding: 2px;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+        width: 100px;
+        background: $bright_blue2;
+        color: $text_white;
+   }
+   .buyBtm:hover{
+       background: $bright_blue4;
+   }
+}
